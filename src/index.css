@@ -1,0 +1,90 @@
+:root {
+  --bg-color: linear-gradient(135deg, #0b7fa0, #19b7d3);
+  --primary-text-color: white;
+  --padding-s: 5px;
+  --padding-m: 10px;
+  --padding-l: 20px;
+  --padding-xl: 30px;
+  --border-radius-s: 5px;
+  --border-radius-m: 10px;
+  --border-radius-l: 20px;
+  --border-radius-xl: 30px;
+  --margin-s: 5px;
+  --margin-m: 10px;
+  --margin-l: 20px;
+  --margin-xl: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: var(--bg-color);
+  color: var(--primary-text-color);
+}
+/* .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding-s);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--margin-s);
+  img {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+.logo-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--margin-m);
+  a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.nav-links {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  gap: var(--margin-l);
+  a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+} */
