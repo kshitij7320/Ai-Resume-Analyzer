@@ -11,9 +11,9 @@ const Header = () => {
           <h1>Resume Analyzer</h1>
         </span>
         <div className="nav-links">
-          <Link to="/about">About</Link>
+          {/* <Link to="/about">About</Link> */}
           <Link to="/analyze">Analyze Resume</Link>
-          <Link to="/projects">Projects</Link>
+          {/* <Link to="/projects">Projects</Link> */}
         </div>
       </nav>
     </>
