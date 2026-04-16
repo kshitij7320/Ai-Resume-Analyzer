@@ -224,15 +224,28 @@ function FileUpload() {
           </div>
 
           <div className="analysis-section">
-            <h4>🔍 Recommended Keywords</h4>
+            <h4>🔍 Detected Keywords</h4>
             <div className="keywords">
               {analysisResult.keywordAnalysis.map((keyword, index) => (
-                <span key={index} className="keyword-tag">
+                <span key={index} className="keyword-tag detected">
                   {keyword}
                 </span>
               ))}
             </div>
           </div>
+
+          {analysisResult.recommendedKeywords && (
+            <div className="analysis-section">
+              <h4>✨ Suggested Keywords</h4>
+              <div className="keywords">
+                {analysisResult.recommendedKeywords.map((keyword, index) => (
+                  <span key={index} className="keyword-tag suggested">
+                    {keyword}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>

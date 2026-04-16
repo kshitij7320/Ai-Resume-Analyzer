@@ -360,17 +360,26 @@
 }
 
 .keyword-tag {
-  background: rgba(33, 150, 243, 0.2);
-  color: #64b5f6;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   font-size: 0.9rem;
-  border: 1px solid rgba(33, 150, 243, 0.3);
+  border: 1px solid transparent;
   transition: all 0.2s ease;
 }
 
+.keyword-tag.detected {
+  background: rgba(33, 150, 243, 0.2);
+  color: #64b5f6;
+  border-color: rgba(33, 150, 243, 0.3);
+}
+
+.keyword-tag.suggested {
+  background: rgba(255, 193, 7, 0.18);
+  color: #ffd54f;
+  border-color: rgba(255, 193, 7, 0.35);
+}
+
 .keyword-tag:hover {
-  background: rgba(33, 150, 243, 0.3);
   transform: translateY(-1px);
 }
 
